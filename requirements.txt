@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.29.1
+wikipedia==1.4.0
+python-dotenv==1.0.1
+
