@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Получаем токен из .env
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = os.getenv("TOKEN")
 
 if not TOKEN:
     raise ValueError("❌ TELEGRAM_BOT_TOKEN не найден в .env файле")
